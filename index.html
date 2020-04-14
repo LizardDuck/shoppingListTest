@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<header>
+ 		<div class = "container h-100">
+ 			<div class = "row h-100 justify-content-center align-items-center">
+ 				<div class = "col-12 col-md-12 col-lg-6">
+
+ 					<h1 class = "mainHeader"> Shopping <span>List</span> </h1>
+ 					<h2> Instructions:</h2>
+ 					<ol class = "guide">
+ 						<li class = guideList>Enter Items to list</li>
+ 						<li class = guideList>Mark items as done by clicking</li>
+ 						<li class = guideList>Click delete button to delete</li>
+ 					</ol>
+ 				</div> <!-- END OF COLUMN -->
+ 			</div> <!-- END OF ROW -->
+		</div> <!-- END OF CONTAINER -->
+	</header> <!-- END OF HEADER -->
+	
+	<!-- MAIN CONTENT -->
+
+	<section class = "shoppingList">
+		<div class = "container h-100">
+			<div class = "row h-100 justify-content-center align-items-center">
+				<div class="col-12 col-md-12 col-lg-12 listContainer">
+					<input id = "userInput" type = "text" placeholder="Enter Items">
+					<button id="add">Add</button>
+
+					<!-- Enter items into list w/ HTML DOM -->
+					<ul class = shopList>
+					</ul>
+
+				</div> <!-- END OF COLUMN -->
+			</div> <!-- END OF ROW -->
+		</div> <!-- END OF CONTAINER -->
+
+	</section> <!-- end shopping List -->
+
+	
+
+
+<script type="text/javascript" src = "script.js"></script>
+
+</body>
+</html>

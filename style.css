@@ -1,0 +1,138 @@
+
+.done {
+	text-decoration: line-through;
+}
+
+
+.deleteButton {
+  background-color: #a0829b;
+  color: #fff;
+  border-radius: 30px
+  margin: 20px;
+}
+
+header, nav, section, article, main, aside, figure, footer {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #2E463B;
+}
+
+/* HEADER STYLES */
+
+header {
+  margin-top: 5px;
+}
+header h1 {
+  color: #DB685B;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+header h1 span {
+  color: #fafafa;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+
+header h2 {
+  color: #E5A076;
+  text-transform: uppercase;
+}
+
+ol.guide {
+	color: #fff;
+	/*list-style-type: */
+	text-align: left;
+	list-style-position: inside;
+}
+
+
+
+/* END OF HEADER STYLES */
+
+/* shoppingList section style starts here */
+div.listContainer {
+  margin-bottom: 30em;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 1.2em;
+  color: #616161;
+  opacity: 0.8;
+  transition: opacity 400ms;
+}
+
+input:hover {
+  opacity: 1;
+}
+
+
+
+/* responsive mobile */
+@media (max-width: 991.5px) {
+  input {
+    width: 100%;
+    }
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2em;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  background-color: #63b931;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  transition: background-color 1s;
+}
+
+ul.shopList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 50%;
+  position: relative;
+}
+
+/* responsive mobile */
+@media (max-width: 991.5px) {
+  ul.shopList {
+    width: 100%;
+    }
+}
+
+.listItem {
+  cursor: pointer;
+  background: #fb7960;
+  color: #fff;
+  text-align: left;
+  padding: 8px 5px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  border-radius: 5px;
+}
+
+.deleteButton{
+	justify-content: right;
+}
